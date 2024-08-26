@@ -54,5 +54,3 @@ async def test(ctx):
     print("test")
 
 client.run(token)
-
-# test number 3

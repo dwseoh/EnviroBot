@@ -4,9 +4,12 @@ from discord.ext import commands
 
 
 from dotenv import load_dotenv  # This is the tool to load environment variables
-print("dotenv loaded successfully!")
+
 
 # Load environment variables from a .env file
+
+
+# HELLOOOOOOOOOOOOOOOOOOOOOOOOOOOOo testing
 load_dotenv()
 token = os.getenv('DISCORD_BOT_TOKEN')
 

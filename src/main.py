@@ -49,4 +49,8 @@ async def test(ctx):
 
 
 
+@client.command()
+async def test(ctx):
+    print("test")
+
 client.run(token)

@@ -30,7 +30,7 @@ async def on_ready():
 
 
 @client.command()
-async def test(ctx,*,message):
+async def test(ctx):
     await ctx.message.reply("test")
 
 client.run(token)

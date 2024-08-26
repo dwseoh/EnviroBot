@@ -27,7 +27,7 @@ client = commands.Bot(case_insensitive=True,
 async def on_ready():
     print("We have logged in as", client.user)
 
-'''
+
 @client.command()
 async def DmMember(ctx, member: discord.User, *, message):
     if ctx.message.author.id != 891434702509060106:
@@ -39,12 +39,14 @@ async def DmMember(ctx, member: discord.User, *, message):
             description="This command is disabled due to abuse usage",
             color=discord.Color.red())
         await ctx.message.channel.send(f"{ctx.author.mention}", embed=em)
-'''
+
 
 
 
 @client.command()
 async def test(ctx):
     await ctx.message.reply("test")
+
+
 
 client.run(token)

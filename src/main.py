@@ -20,6 +20,7 @@ activity = discord.Game(name="hello testing")
 client = commands.Bot(case_insensitive=True,
                           command_prefix='?',
                           intents=intents,
+                          activity=activity,
                           status=discord.Status.dnd)
 
 @client.event

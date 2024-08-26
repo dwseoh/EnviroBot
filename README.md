@@ -13,6 +13,9 @@ Current features:
 ## Invite the bot
 Click on the [Invite Link](https://discord.com/oauth2/authorize?client_id=1277436730756304959&permissions=8&integration_type=0&scope=applications.commands+bot) to test the bot out in your own server!
 
+## Short Demo
+https://youtu.be/AsvVXgRYxbU
+
 ## Run it locally
 For windows:
 `pip install discord.py requests beautifulsoup4 python-dotenv asyncio transformers`
@@ -32,4 +35,3 @@ For mac:
 > APP_KEY = your_api_key
 8. Run the program in your terminal, and it should work!
 > python3 src/main.py
-
